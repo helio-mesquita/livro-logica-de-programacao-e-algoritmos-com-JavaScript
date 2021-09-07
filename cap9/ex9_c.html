@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Exercício C - Copa do Brasil - Classificados</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/exerc.jpg" alt="Ícone de Exercícios" class="imgProg">
+            </div>
+            <div class="col-sm-8">
+                <h1>Copa do Brasil - Classificados </h1>
+                <label for="inClube"><p>Clube:</p></label>
+                <p>
+                    <input type="text" class="form-control" id="inClube">
+                </p>
+                <p>
+                    <input type="button" value="Adicionar" class="btn btn-primary" id="btAdicionar">
+                    <input type="button" value="Montar Tabela de Jogos" class="btn btn-success" id="btMontarTabela">
+                    <input type="button" value="Novos Clubes" class="btn btn-danger" id="btNovosClubes">
+                </p>
+                <div id="outClubes"></div>
+                <div id="outTabela"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex9_c.js"></script>
+</body>
+</html>

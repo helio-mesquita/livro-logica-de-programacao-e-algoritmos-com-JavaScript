@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Exemplo C - Herbie: Controle de Serviços</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/exerc.jpg" alt="ícone de Exercícios">
+            </div>
+            <div class="col-sm-8">
+                <h1>Herbie: Controle de Serviços</h1>
+                <p><label for="inServicoVeiculo">Serviço - Veículo:</label>
+                <input type="text" id="inServicoVeiculo" class="form-control">
+                </p>
+                <p> <input type="button" value="Adicionar Serviço" class="btn btn-primary" id="btAdicionar">
+                <input type="button" value="Executar Serviço" class="btn btn-primary" id="btExecutar">
+                </p>
+                <div class="container" style="text-align: right;">
+                    <h3 id="outContador"></h3>
+                </div>
+                <div> 
+                    <p class="btn-primary"> &nbsp;Serviço em execução: </p>
+                    <h3 id="outServicos" style="text-align: center;"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex8_c.js"></script>
+</body>
+</html>

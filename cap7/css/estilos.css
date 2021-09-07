@@ -1,0 +1,11 @@
+h1 { border-bottom-style: inset; }
+pre { font-size: 1.2em; }
+img.normal { float: left; height: 300px; width: 300px; }
+img.alta { float: left; height: 420px; width: 300px;}
+.aDireita { text-align: right; }
+span { margin-left: 70px; }
+select {width: 150px; }
+.detalhes { width: 380px; }
+.oculta { display: none; }
+.exibe { display:inline}
+

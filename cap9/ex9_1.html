@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Exemplo 9.1 - Tarefas do Dia </title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ex9_1.jpg" alt="Tarefas" class="imgProg">
+            </div>
+
+            <div class="col-sm-8" id="divQuadro">
+                <h1>Tarefas do Dia (a realizar)</h1>
+                <p>
+                    <label for="inTarefa">Tarefa: </label>
+                    <input type="text" class="form-control" id="inTarefa" autofocus>
+                </p>
+                <p>
+                    <input type="button" class= "btn btn-primary" value="Adicionar &#10003;" id="btAdicionar">
+                    <input type="button" class= "btn btn-info" value="Selecionar &#8645;" id="btSelecionar">
+                    <input type="button" class = "btn btn-danger" value="Retirar Selecionada &#10007;" id="btRetirar">
+                    <input type="button" class= "btn btn-success" value="Gravar &#9673;" id="btGravar">
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex9_1.js"></script>
+</body>
+</html>

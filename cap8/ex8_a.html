@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Exemplo A - Loja de Esportes </title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="divTitulo">
+            <div class="col-sm-7">
+                <h1>Loja de Esportes Avenida</h1>
+                <h2>Produtos esportivos em geral</h2>
+            </div>
+            <div class="col-sm-3">
+                <h5>Qual clube você torce?</h5>
+                <input type="radio" name="clube" id="rbBrasil"> Brasil
+                <br>
+                <input type="radio" name="clube" id="rbPelotas"> Pelotas
+                <br>
+                <input type="radio" name="clube" id="rbFarroupilha"> Farroupilha
+                <br>
+                <input type="radio" name="clube" id="rbNenhum" checked> Nenhum
+            </div>
+            <div class="col-sm-2">
+                <img id="imgClube" class="oculta">
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <div class="container p-4">
+            <h3 id="outContador"></h3>
+        </div>
+    </footer>
+    <script src="js/ex8_a.js"></script>
+</body>
+</html>

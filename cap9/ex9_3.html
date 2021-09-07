@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Exemplo 9.3 - Meus Filmes Favoritos</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ex9_3.jpg" alt="Filmes" class= "imgProg">
+            </div>
+            <div class="col-sm-8">
+                <h1>Meus Filmes Favoritos</h1>
+                <p>
+                    <label for="inTitulo">Título do Filme:</label>
+                    <input type="text" class="form-control" id="inTitulo">
+                </p>
+                <p>
+                    <label for="inGenero">Gênero: </label>
+                    <input type="text" class="form-control" id="inGenero">
+                </p>
+                <p class="aDireita">
+                    <input type="button" class="btn btn-primary" value="Adicionar" id="btAdicionar">
+                </p>
+
+                <table class="table table-striped" id="tbFilmes">
+                    <tr>
+                        <th>Título do Filme</th>
+                        <th>Gênero</th>
+                        <th>
+                            <label><input type="checkbox" id="ckTodos"> &nbsp;Todos </label>
+                        </th>
+                    </tr>
+                </table>
+                <p class = "aDireita">
+                    <input type="button" class="btn btn-danger" value="Excluir Selecionados" id="btExcluir">
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex9_3.js"></script>
+</body>
+</html>

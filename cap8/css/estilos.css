@@ -1,0 +1,7 @@
+img { max-width: 100%; }
+pre { font-size: 1.2em; }
+.oculta { display: none; }
+.exibe { display: inline; }
+.coresBrasil { color: black; background-color: red; }
+.coresPelotas { color: blue; background-color: yellow; }
+.coresFarroupilha { color: green; background-color: white; } 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício C - Veterinária Avenida</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <img src="img/exerc.jpg" alt="ícone de Exercício" class="normal">
+    <h1>Veterinária Avenida</h1>
+    <p>Valor da Vacina:
+        <input type="text" id="inValor" autofocus>
+    </p>
+    <p>Possui Convênio: 
+        <input type="radio" name="confConvenio" id="rbSim"> Sim
+        <input type="radio" name="confConvenio" id="rbNao" checked> Não
+    </p>
+    <p id="convTitulo" class="oculta">Convênio: 
+    <select id="inConvenio">
+        <option value="amigoDosAnimais">Amigo dos Animais</option>
+        <option value="saudeAnimal">Saúde Animal</option>
+    </select>
+    </p>
+    <p><input type="button" value="Calcular Desconto" id="btCalcular"></p>
+    <h3 id="outDesconto"></h3>
+    <h3 id="outPagamento"></h3>
+    <script src="js/borrao.js"></script>
+</body>
+</html>
