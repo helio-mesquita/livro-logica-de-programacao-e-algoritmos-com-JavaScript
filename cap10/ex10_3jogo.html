@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 10.3 - Jogo</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Jogo "Descubra a Palavra"</h1>
+
+                <a href="ex10_3.html" class="btn btn-primary">Cadastrar Palavras</a>
+                <a href="ex10_3lista.html" class="btn btn-success">Listar Palavras</a>
+                <a href="ex10_3jogo.html" class="btn btn-danger">Iniciar Jogo</a>
+
+                <div class="row margemJogo">
+                    <div class="col-sm-4 corFundo">
+                        <h2 class="aDireita">
+                            <label for="inLetra">Informe uma letra:</label>
+                        </h2>
+                    </div>
+                    <div class="col-sm-2 corFundo">
+                        <input type="text" class="form-control margemJogo"
+                        id="inLetra" autofocus>
+                    </div>
+                    <div class="col-sm-6 corFundo">
+                        <input type="button" class="btn btn-primary margemJogo"
+                        value="Jogar" id="btJogar">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2>Palavra:
+                            <span id="outPalavra" class="entreLetras fonteAzul"></span>
+                        </h2>
+                        <h2>Nº Chances:
+                            <span id="outChances" class="fonteVermelho">4</span>
+                        </h2>
+                        <h2>Erros:
+                            <span id="outErros" class="entreLetras fonteVermelho"></span>
+                        </h2>
+                        <h2 id="outMensagemFinal"></h2>
+                    </div>
+                    <div class="col-sm-4 bordaQuadro">
+                        <h3> Situação do Jogador </h3>
+                        <img src="img/status4.jpg" alt="Situação do Jogador"
+                        id="imgStatus" class="imgProg">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 corFundo margemDica">
+                        <input type="button" value="Ver Dica"
+                        class="btn btn-primary" id="btVerDica">
+                        <span id="outDica">* Custo: 1 chance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex10_3jogo.js"></script>
+</body>
+
+</html>

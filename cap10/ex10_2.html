@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 10.2 - Teatro: Show Musical - Reserva de Poltronas</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="img/ex10_2.jpg" alt="Teatro" class="imgProg">
+            </div>
+            <div class="col-sm-9">
+                <h1>Teatro: Show Musical - Reserva de Poltronas</h1>
+
+                <div class="row">
+                    <div class="col-sm-2">
+                        <p>
+                            <label for="inPoltrona">N° da Poltrona:</label>
+                            <input type="text" class="form-control aDireita" id="inPoltrona" autofocus>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="button" class="btn btn-primary margemSup" value="Reservar" id="btReservar">
+                        <input type="button" class="btn btn-danger margemSup" value="Confirmar Reserva" id="btConfirmar">
+                    </div>
+                    <div class="col-sm-6">
+                        <p>Legenda:</p>
+                        <p>
+                            <img src="img/disponivel.jpg"> Disponível
+                            <img src="img/reservada.jpg" class="margemEsq"> Reservada
+                            <img src="img/ocupada.jpg" class="margemEsq"> Ocupada
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12" id="divPalco">
+                        <p class="bg-primary text-white text-center">Palco do Teatro</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/ex10_2.js"></script>
+</body>
+</html>

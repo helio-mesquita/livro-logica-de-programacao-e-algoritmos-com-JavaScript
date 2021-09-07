@@ -1,0 +1,18 @@
+h1 { border-bottom-style: inset;}
+h2 { margin-top: 12px; }
+h5 { font-style: italic; margin-top: 40px; }
+pre { font-style: italic; }
+figure { display: inline-block; font-size: 0.7em; margin: 5px }
+img.imgProg { max-width: 100%; }
+img.poltrona { width: 24; height: 16px; }
+.aDireita { text-align: right; }
+.margemSup { margin-top: 30px; }
+.margemEsq { margin-left: 15px; }
+.oculta { display: none; }
+.exibe { display: inline; }
+.margemJogo { margin-top: 15px; }
+.corFundo { background-color: lightskyblue; }
+.entreLetras { letter-spacing: 0.5em; }
+.margemDica { padding: 12px; }
+.fonteAzul { color: blue; }
+.fonteVermelho { color: red; }

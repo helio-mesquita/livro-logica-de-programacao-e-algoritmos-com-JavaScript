@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 10.3 - Listagem</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Jogo "Descubra a Palavra"</h1>
+
+                <a href="ex10_3.html" class="btn btn-primary">Cadastrar Palavras</a>
+                <a href="ex10_3lista.html" class="btn btn-success">Listar Palavras</a>
+                <a href="ex10_3jogo.html" class="btn btn-danger">Iniciar Jogo</a>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <h2>Listagem das Palavras</h2>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="checkbox" class="masrgemSup" id="ckMostrar"> Mostrar Palavras
+                    </div>
+                </div>
+                <table class="table table-striped" id="tbPalavras">
+                    <tr>
+                        <th>Palavras</th>
+                        <th>Dicas</th>
+                        <th>
+                            <label>
+                                <input type="checkbox" id="ckTodos">Todos</label>
+                            </th>
+                        </tr>
+                        
+                    </table>
+                    
+                    <p class="aDireita">
+                        <input type="button" class="btn btn-danger oculta" value="Excluir Selecionados" id="btExcluir">
+                    </p>
+                    
+            </div>
+        </div>
+    </div>
+    <script src="js/ex10_3lista.js"></script>
+</body>
+</html>

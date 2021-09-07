@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 10.1 - Jockey Club - Contador de Apostas </title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ex10_1.jpg" alt="Jockey Club" class="imgProg">
+            </div>
+            <div class="col-sm-8">
+                <h1>Jockey Club - Controle de Apostas</h1>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            <label for="inCavalo">N° Cavalo: </label>
+                            <input type="text" class="form-control aDireita" id="inCavalo"  autofocus="">    
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5 id="outCavalo"></h5>
+                    </div>
+                </div>
+                    
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            <label for="inAposta">Aposta R$:</label>
+                            <input type="text" id="inValor" class="form-control aDireita">
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="button" class="btn btn-primary margemSup" value="Apostar" id="btApostar">
+                        <input type="button" class="btn btn-success margemSup" value="Ganhador" id="btGanhador">
+                        <input type="button" class="btn btn-danger margemSup" value="Novo Páreo" id="btNovo">
+                    </div>
+                </div>
+                <pre id="outApostas"></pre>
+        </div>
+    </div>
+    <script src="js/ex10_1.js"></script>
+</body>
+</html>

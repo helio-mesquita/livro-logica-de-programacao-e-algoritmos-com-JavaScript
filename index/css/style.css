@@ -1,0 +1,15 @@
+.margemContainer { padding-left: 0%; padding-right: 0%; border-left: 2px solid rgb(138, 218, 255); border-right: 2px solid rgb(138, 218, 255); }
+.livroIcon { max-width: 100%; display:block; margin-left: auto; margin-right: auto; margin-top: 10px; }
+.center { text-align: center; }
+.icon { max-width: 50px; }
+.bgBranco {background-color: white; }
+.bgAzul { background-color: rgb(3, 173, 252); }
+.bgAzulClaro {background-color: rgb(138, 218, 255); }
+a:link { text-decoration: none;}
+a:hover { text-decoration: underline; color: silver;}
+li {line-height: 25px;}
+p {margin-right: 10px; text-align: right;}
+.cap10 { text-align: center;}
+.italico { font-style: italic;}
+footer {padding-bottom: 25px;}
+.pTitulo {text-align: left; border-bottom: 2px solid rgb(138, 218, 255);}
