@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("Digite 0 para sair");
+        do {
+            var num = Number(prompt("Digite um número: "));
+            if (num == 0 || isNaN(num)){
+                var sair = confirm("Confirmar Saída?");
+                if (sair) {
+                    break;
+                } else {
+                    continue;
+                }    
+            }
+          
+            if (num % 2 == 0) {
+                alert("O dobro do número é: " + num*2);
+            }else {
+                alert("O triplo do número é: "+ num*3);
+            }
+        } while (true);
+        alert("Bye, bye...");
+    </script>
+</body>
+</html>
